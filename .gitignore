@@ -1,0 +1,7 @@
+# Entorno virtual — se crea automaticamente en cada build de Jenkins
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo

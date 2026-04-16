@@ -14,6 +14,9 @@ class calculadora:
             raise ValueError("No se puede dividir entre 0")
         return a / b
     
+    def potencia(self, base, exponente):
+        return base ** exponente
+    
 
 if __name__ == "__main__":
     

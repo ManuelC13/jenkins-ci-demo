@@ -23,3 +23,7 @@ def test_dividir():
 def test_dividir_entre_cero():
     with pytest.raises(ValueError):
         calc.dividir(5, 0)
+
+def test_potencia():
+    assert calc.potencia(2, 3) == 8
+    assert calc.potencia(5, 0) == 1

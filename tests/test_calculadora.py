@@ -27,3 +27,7 @@ def test_dividir_entre_cero():
 def test_potencia():
     assert calc.potencia(2, 3) == 8
     assert calc.potencia(5, 0) == 1
+
+
+def test_fallo_intencional():
+    assert sumar(2, 2) == 2
